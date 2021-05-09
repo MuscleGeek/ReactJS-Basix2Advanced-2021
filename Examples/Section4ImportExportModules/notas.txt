@@ -1,0 +1,3 @@
+Ponerle un alias a una funcion de un componente cuando es importado se usa "as"
+
+import {isArrayEmpty as checkEmpty} from './component'

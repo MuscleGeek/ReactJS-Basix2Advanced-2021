@@ -1,0 +1,9 @@
+Stateful Components 
+-Smart Components
+-Constainer
+-Class-Based
+
+Stateless Components
+-Dump Components
+-Presentational
+-Function-based

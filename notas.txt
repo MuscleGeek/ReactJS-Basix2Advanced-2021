@@ -1,0 +1,39 @@
+Babel
+https://babeljs.io/setup#installation
+
+Try it Out
+https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.13.17&externalPlugins=
+
+**Cuando se importa UN modulo por default se le puede poner cualquier nombre pero el nombre del jsx
+si tiene que ser el nombre puesto por defecto.**
+
+
+Map
+
+const mapArray = myArray((item,pos) => {
+    console.log(item);
+    return (
+    <div style={styles} className="BlogCard" key={item.id}>  
+      <h3>{item.title}</h3>
+      <p>{item.description}</p>
+    </div>  
+    )
+}) 
+
+----END Map---
+
+Crear elementos React.elemento
+
+React.element("div",elDiv)
+<div className="elDiv">
+</div>
+
+Anidado y con uso de Props
+
+React.element("div",null,React.element("h3",classHeader,{title: 'Mi titulo', description: 'Mi descripcion', coverPic:"alguna URL"}))
+<div>
+    <h3 className="classHeader" title="Mi titulo" descripcion="Mi decripcion" coverPic="alguna URL" ></h3>
+</div>
+
+---END React.Element----
+

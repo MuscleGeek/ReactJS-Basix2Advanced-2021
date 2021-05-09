@@ -1,0 +1,15 @@
+.BlogCard {
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: lightblue;
+}
+
+@media (min-width: 992px) { /*se cumple de 992px para arriba y si fuera max-with se cumple de 0px a 992px*/
+    .BlogCard {
+        width: 45%;
+        display: inline-block;
+    }
+}

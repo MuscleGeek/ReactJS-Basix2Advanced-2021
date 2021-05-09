@@ -1,0 +1,9 @@
+Se puede accesar las clases de un archivo css utilizando un nombre genericos para acceso como si fuera un objeto
+Ejemplo:
+
+import classes from './BlogCard.module.css'
+//Digamos que tenemos una clase llamada BlogCard
+Ejemplo
+
+<div className={classes.BlogCard}>
+</div>
