@@ -1,0 +1,11 @@
+class Dropdown extends Component {
+    //Component Body
+
+    shouldComponentUpdate(nextProps, nextState){
+        if(condition) { //Condition to check if re-render required
+            return true;
+        }else{
+            return fl
+        }
+    }
+}  
